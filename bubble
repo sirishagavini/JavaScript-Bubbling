@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+        <script>
+        function showPrincess()
+        {
+             alert("Hello princess,Prince has arrived");
+      	var princess = document.getElementById('castle');
+	princess.src ="https://iwiish.files.wordpress.com/2016/04/finally.jpg";
+        }
+          function showMaid()
+        {
+  
+      alert("Hello maid, Could you please let princess know that Prince has arrived");
+       	var maid = document.getElementById('castle');
+	maid.src ="https://iwiish.files.wordpress.com/2016/04/maid.jpg";
+
+        }
+          function showGuard()
+        {
+               alert("Hello Gaurd, Could you please let princess know that Prince has arrived");
+       	var guard = document.getElementById('castle');
+	guard.src ="https://iwiish.files.wordpress.com/2016/04/guard.gif";
+
+        }
+        </script>
+    </head>
+    <body>
+        <img  id="castle" src="https://iwiish.files.wordpress.com/2016/04/castle.jpg" width="500" height="500"> 
+
+        <div id="princess" onclick="showPrincess()"> 
+           
+            <div id="maid" onclick="showMaid()"> 
+                
+                <div id="guard" onclick="showGuard()"> <b> GUARD </b> </div>
+        </div>
+     </div>
+    </body>
+</html>
